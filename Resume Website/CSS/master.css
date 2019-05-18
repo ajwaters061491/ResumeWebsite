@@ -1,0 +1,51 @@
+html {
+    background: url(../Images/AtlantaBackground.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+h1 {
+    font-weight: 100;
+    letter-spacing: 5;
+    font-size: 40px;
+}
+p {
+    font-weight: 200;
+}
+.prof-box {
+    width: 400px;
+    height: 400px;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
+    border-radius: 25px;
+}
+.prof-pic { /*We will need to change this later*/
+    height: 230px;
+    width: 200px;
+    border-radius: 50%;
+}
+.social-icons {
+    font-size: 40px;
+    letter-spacing: 10;
+    padding: 30px;
+    background: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.social-icons a:visited{
+    color: white;
+}
+a:link{ 
+    color:white;
+}
+a:hover {
+    -webkit-text-stroke: 1px white; 
+}
